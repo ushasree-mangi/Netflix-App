@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.main-container {
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/76c10fc9-7ccd-4fbf-bc59-f16a468921ca/4fb4af6e-d0ca-4c7f-b004-b34226727e55/IN-en-20230529-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.50);
+    background-size: cover;
+    min-height: 100vh;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    right: 30px;
+    flex-direction: row;
+    background: transparent;
+}
+
+.logo-Img {
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+    padding-left: 120px;
+}
+
+#btn {
+    width: 100px;
+    height: 35px;
+    text-align: center;
+    background: #0f0f0f;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Roboto";
+    border: solid 1px #575656;
+    margin: 10px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.login {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "Roboto";
+    color: #fff;
+    background: #f73c2f;
+    width: 120px;
+    height: 30px;
+    padding: 8px 15px;
+    margin: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: 0.5s;
+}
+
+.login:hover {
+    background: #d92316;
+}
+
+.home-content {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.home-main-heading {
+    font-size: 60px;
+    font-family: "Roboto";
+    font-weight: bold;
+    color: #fff;
+}
+
+.home-text {
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "Roboto";
+    color: #fff;
+}
+
+.home-sub-text {
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Roboto";
+    color: #fff;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    color: #fff;
+}
+
+.input-form {
+    width: 50%;
+    height: 50px;
+    outline: none;
+    background: #111;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: "Roboto";
+    padding-left: 10px;
+    border: 1px solid #888;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.submbit-btn {
+    width: 200px;
+    height: 50px;
+    background: #f73c2f;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: "roboto";
+    margin-left: 10px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    transition: 0.5s;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.submbit-btn:hover {
+    background: #d92316;
+}
+
+/*ENJOY-SECTION --*/
+
+.enjoy-section {
+    background: #111;
+    background-size: cover;
+}
+
+.wrapper-section {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.card {
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.enjoy-main-heading {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "roboto";
+    color: #fff;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.enjoy-txt {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "roboto";
+    color: #fff;
+    text-align: justify;
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+
+.enjoy-Img {
+    width: 100%;
+    margin: 80px 0;
+}
+
+.line {
+    border-bottom: 5px solid #888;
+}
+
+
+
+/*----Frequently---*/
+.faq {
+    background: #03010d;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.faq-heading {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Roboto";
+    color: #fff;
+    text-align: center;
+    padding-top: 40px;
+    padding-top: 60px;
+}
+
+.accordion {
+    margin: 20px auto;
+    width: 100%;
+    max-width: 750px;
+}
+
+.accordion li {
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+
+.accordion li label {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 17px;
+    font-weight: 500;
+    background: #0a0421;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+    color: #fff;
+}
+
+label::after {
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+    transition: 0.5s;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.accordion .content {
+    background: #303030;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    color: #fff;
+    transition: max-height 0.5s, padding 0.5s;
+}
+
+.accordion input[type="radio"]:checked+label+.content {
+    max-height: 600px;
+    padding: 30px 20px;
+}
+
+.accordion input[type="radio"]:checked+label::after {
+    transform: rotate(135deg);
+}
+
+.membership-heading {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Roboto";
+    color: #fff;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
+
+.footer-heading {
+    font-size: 20px;
+    font-family: "Roboto";
+    font-weight: 600;
+    color: #fff;
+    padding-top: 40px;
+    text-align: justify;
+    padding-left: 80px;
+}
+
+.num {
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+}
+
+.footer-section {
+    background: #111;
+    background-size: cover;
+}
+
+.footer-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-card {
+    padding: 40px 0;
+}
+
+.footer {
+    font-size: 17px;
+    font-weight: 600;
+    font-family: "Roboto";
+    color: #fff;
+    padding: 5px;
+}
+
+a {
+    color: #fff;
+}
